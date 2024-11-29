@@ -1,0 +1,15 @@
+# PURL configuration for http://purl.brain-bican.org/taxonomy/CCN202002013
+
+idspace: CCN202002013
+base_url: /taxonomy/CCN202002013
+
+products:
+- CCN202002013.json: https://raw.githubusercontent.com/AllenInstitute/MOp_taxonomies_ontology/main/mouseMOp_CCN202002013/updated_dendrogram_CCN202002013.json
+
+base_redirect: https://knowledge.brain-map.org/celltypes/CCN202002013
+
+entries:
+
+# http://purl.brain-bican.org/taxonomy/CCN201912131/CCN201912131.json
+- exact: /CCN202002013.json
+  replacement: https://raw.githubusercontent.com/AllenInstitute/MOp_taxonomies_ontology/main/mouseMOp_CCN202002013/updated_dendrogram_CCN202002013.json
